@@ -7,24 +7,39 @@
 
 using namespace std;
     class Carro{
-        public:
+        private:
             string marca;
             int ano;
             string cor;
+        public:
+            void setMarca(string x){
+                marca = x;
+            }
+            string getMarca(){
+                return marca;
+            }
+            void setAno(int y){
+                if(y > 1990)
+                    ano = y;
+                else
+                    ano = 1990;
+            }
+            int getAno(){
+                return ano;
+            }
+
     };
 int main(int argc, char** argv){
     Carro c1;
-    c1.marca = "Fiat";
-    c1.ano = 2017;
-    c1.cor = "Preto";
+    c1.setMarca("Fiat");
+    c1.setAno(2017);
 
     Carro c2;
-    c2.marca = "Palio";
-    c2.ano = 2018;
-    c2.cor = "Branco";
+    c2.setMarca("Palio");
+    c2.setAno(1960);
     
-    cout << c1.marca << endl;
-    cout << c2.marca << endl;
+    cout << c1.getMarca() << endl;
+    cout << c1.getAno() << endl;
 
     return 0;
 }
