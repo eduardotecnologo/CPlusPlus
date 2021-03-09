@@ -9,7 +9,7 @@ string Carro::getMarca(){
 }
 void Carro::setAno(int ano){
     if(ano > 1990)
-        this->ano = ano;
+        this -> ano = ano;
     else
         this->ano = 1990;
 }
