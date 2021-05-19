@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/03/12 17:04:57.000.761,=C:\Users\E\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/03/12 17:04:58.000.517,=C:\Users\E\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/03/12 17:05:36.000.278,C:\Users\E\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.cpp=E:\GIT\CPlusPlus\Embarcadeiro\ExampleTwo\ExampleTwo.cpp</Transaction>
+    <Transaction>2021/03/12 17:05:36.000.278,C:\Users\E\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=E:\GIT\CPlusPlus\Embarcadeiro\ExampleTwo\ExampleTwo.dfm</Transaction>
+    <Transaction>2021/03/12 17:05:36.000.278,C:\Users\E\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.h=E:\GIT\CPlusPlus\Embarcadeiro\ExampleTwo\ExampleTwo.h</Transaction>
+    <Transaction>2021/03/12 17:05:52.000.523,C:\Users\E\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1PCH1.h=E:\GIT\CPlusPlus\Embarcadeiro\ExampleTwo\ExampleTwoPCH1.h</Transaction>
+    <Transaction>2021/03/12 17:53:49.000.786,C:\Users\E\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.cbproj=E:\GIT\CPlusPlus\Embarcadeiro\ExampleTwo\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

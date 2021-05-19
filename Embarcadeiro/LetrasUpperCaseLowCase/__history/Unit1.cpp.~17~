@@ -1,0 +1,63 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+bool kayb = 0;
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::BtnSairClick(TObject *Sender)
+{
+	Close();
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::BtnVerificarClick(TObject *Sender)
+{
+	 kayb = 0;
+	 String letra = EditLetra->Text;
+
+	 char c = letra[1];
+	 switch(c){
+		case 'a':
+		case 'e':
+		case 'i':
+		case 'o':
+		case 'u':
+			 ShowMessage("Você digitou uma letra Minuscula!!");
+			 break;
+
+		case 'A':
+		case 'E':
+		case 'I':
+		case 'O':
+		case 'U':
+			 ShowMessage("Você digitou uma letra Maiúscula!!");
+			 break;
+	 default:
+			 ShowMessage("Você não digitou uma letra!!")
+		;
+	 }
+
+	 EditLetra->Text = "";
+	 EditLetra->SetFocus();
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::EditLetraChange(TObject *Sender)
+{
+	if (kayb == 1) {
+       key = 0;
+	}
+}
+//---------------------------------------------------------------------------
+

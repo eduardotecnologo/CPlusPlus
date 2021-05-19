@@ -1,0 +1,67 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 231
+  ClientWidth = 529
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 19
+  object Label1: TLabel
+    Left = 24
+    Top = 24
+    Width = 80
+    Height = 19
+    Caption = 'N'#250'mero 01'
+  end
+  object Label2: TLabel
+    Left = 224
+    Top = 24
+    Width = 80
+    Height = 19
+    Caption = 'N'#250'mero 02'
+  end
+  object Label3: TLabel
+    Left = 424
+    Top = 24
+    Width = 69
+    Height = 19
+    Caption = 'Resultado'
+  end
+  object EditValue01: TEdit
+    Left = 8
+    Top = 56
+    Width = 121
+    Height = 27
+    TabOrder = 0
+  end
+  object EditValue02: TEdit
+    Left = 199
+    Top = 56
+    Width = 121
+    Height = 27
+    TabOrder = 1
+  end
+  object EditResult: TEdit
+    Left = 400
+    Top = 56
+    Width = 121
+    Height = 27
+    TabOrder = 2
+  end
+  object BtnSoma: TButton
+    Left = 176
+    Top = 128
+    Width = 169
+    Height = 49
+    Caption = 'Somar'
+    TabOrder = 3
+    OnClick = BtnSomaClick
+  end
+end
